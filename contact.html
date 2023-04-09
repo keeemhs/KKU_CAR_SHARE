@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Contact</title>
+        <link rel="stylesheet" href="/css/style2.css">
+        <script src="https://kit.fontawesome.com/4a620d90e2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="pic">
+            <img src="/images/logo.png" height="80">
+        </div>
+        
+        
+        <div class="hero">            
+            
+            <form METHOD ="post" action="Questions.php">
+                <div class="row">
+                    <div class="input-group">
+                        <input type="text" name="name" required>
+                        <label for ="name"><i class="fa-solid fa-user"></i> 이름</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" name="number" required>
+                        <label for="number"><i class="fa-solid fa-phone"></i> 전화번호</label>
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <input type="text" name="email" required>
+                    <label for="email"><i class="fa-solid fa-envelope"></i> 이메일</label>
+                </div>
+                <div class="input-group">
+                    <textarea name ="message" rows="8" required></textarea>
+                    <label for="message"><i class="fa-solid fa-message"></i> 내용</label>
+                </div>
+                <button type="submit"><i class="fa-solid fa-paper-plane"></i> 제출</button>
+            </form>
+            
+       
+        </div>
+  
+    </body>
+</html>
